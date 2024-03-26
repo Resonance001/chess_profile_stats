@@ -1,0 +1,15 @@
+include: package:very_good_analysis/analysis_options.yaml
+# include: package:flutter_lints/flutter.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+    avoid_redundant_argument_values: false
+#     avoid_dynamic_calls: false
+    sort_constructors_first: false
+#     avoid_multiple_declarations_per_line: false
+#     avoid_escaping_inner_quotes: false
+    directives_ordering: false
+
+# language:
+#   strict-raw-types: false
+#   strict-casts: false
