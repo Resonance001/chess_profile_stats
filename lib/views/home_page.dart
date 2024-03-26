@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
-  static const _appHeader = 'Lichess Profile & Stats ';
+  static const _appHeader = 'Chess Profile & Stats ';
   
   @override
   Widget build(BuildContext context) {
