@@ -31,7 +31,8 @@ class _CalendarSelectorState extends State<CalendarSelector> {
       },
       onSelectionChanged: (newCalendar) {
         setState(() {
-          context.read<NavigationState>().calendar = newCalendar.first;
+          currentCalendar = newCalendar.first;
+          context.read<NavigationState>().calendar = currentCalendar;
         });
       },
     );
